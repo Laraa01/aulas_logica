@@ -1,0 +1,18 @@
+const prompt = require('prompt-sync') ()
+let nmr1 = (Math.floor(Math.random() * 100 + 1))
+let nmr2 = (Math.floor(Math.random() * 100 + 1))
+let nmr3 = (Math.floor(Math.random() * 100 + 1))
+let nmr4 = (Math.floor(Math.random() * 100 + 1))
+let nmr5 = (Math.floor(Math.random() * 100 + 1))
+
+console.log(nmr1)
+console.log(nmr2)
+console.log(nmr3)
+console.log(nmr4)
+console.log(nmr5)
+
+console.log(`${nmr1} x 2 = ${nmr1 * 2}`)
+console.log(`${nmr2} x 2 = ${nmr2 * 2}`)
+console.log(`${nmr3} x 2 = ${nmr3 * 2}`)
+console.log(`${nmr4} x 2 = ${nmr4 * 2}`)
+console.log(`${nmr5} x 2 = ${nmr5 * 2}`)
