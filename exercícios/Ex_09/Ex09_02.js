@@ -4,3 +4,4 @@ for(cor of listacores)
 {
     console.log(cor)
 }
+coresPrimarias()

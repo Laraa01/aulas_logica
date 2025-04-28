@@ -1,10 +1,9 @@
 function tabuada(numero){
- for(let x = 1; x < 11; x++){
-    let calculo = numero * x
-let resultado = calculo
-console.log(resultado)
+    console.log(`Tabuada do ${numero}: `)
+ for(let i = 1; i < 11; i++){
+    console.log(`${numero} X ${i} = ${numero * i}`)
 }
 }
-console.log(tabuada(3));
-console.log(tabuada(5));
-console.log(tabuada(10))
+tabuada(3)
+tabuada(5)
+tabuada(10)

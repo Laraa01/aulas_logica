@@ -1,5 +1,28 @@
-function Soma(n1, n2){
-    let resultado = n1 + n2
-    console.log(resultado)
+function calcular(n1, n2, operador){
+    if(operador === '+'){
+        console.log(`${n1} + ${n2} = ${n1 + n2}`)
+
+}else if(operador === '-'){
+        console.log(`${n1} - ${n2} = ${n1 - n2}`)
+
+}else if(operador === '*'){
+    console.log(`${n1} * ${n2} = ${n1 * n2}`)}
+
+else if(operador === '/'){
+    console.log(`${n1} / ${n2} = ${n1 / n2}`)}
+
+else if(operador === '**'){
+
+     console.log(`${n1} ** ${n2} = ${n1 ** n2}`)}
+else{
+
+    console.log("Operador inválido")
+return
 }
-Soma(6, 18)
+}
+calcular(5, 7, '+')
+calcular(5, 3, "-")
+calcular(5, 6, "*")
+calcular(5, 2, "/")
+calcular(5, 8, "**")
+calcular(5, 3, ";")

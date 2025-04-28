@@ -1,9 +1,12 @@
 function senha(num){
-    let senha = 0
+    let caracteres = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
+    let senha = ''
 for(let i = 0; i < num; i++){
-    let nmrSorteado = Math.floor(Math.random() * 100 + 1)
-    senha += String(nmrSorteado)
+    let nmrSorteado = Math.floor(Math.random() * caracteres.length)
+    senha += caracteres[nmrSorteado]
 }
-console.log(senha)
+return senha
 }
-senha(5)
+console.log('Senha de 6 caracteres: ', senha(6))
+console.log('Senha de 8 caracteres: ', senha(8))
+console.log('Senha de 10 caracteres: ', senha(10))
